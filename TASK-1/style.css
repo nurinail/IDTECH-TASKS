@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(179, 117, 237);
+}
+
+.main-box {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 310px;
+}
+
+.first-box {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(77, 167, 219);
+  padding-top: 150px;
+  border-radius: 10px 0 0 10px;
+}
+.first-box h2,
+p {
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+  font-family: "Sour Gummy", sans-serif;
+}
+.first-box h2 {
+  font-size: 30px;
+}
+
+.first-box p {
+  font-size: 15px;
+  padding: 15px;
+}
+
+.second-box {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(201, 239, 246);
+  padding: 30px;
+  border-radius: 0 10px 10px 0;
+}
+.second-box h2 {
+  text-align: center;
+  display: block;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.second-box-form input {
+  display: inline-block;
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+.second-box-form input:nth-child(5) {
+  height: 100px;
+}
+
+.second-box button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(52, 149, 187);
+  color: white;
+}
+.second-box button:hover {
+  opacity: 0.9;
+  background-color: rgb(17, 108, 145);
+}
