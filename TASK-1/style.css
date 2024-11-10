@@ -76,6 +76,8 @@ p {
   cursor: pointer;
   background-color: rgb(52, 149, 187);
   color: white;
+  font-family: "Sour Gummy", sans-serif;
+
 }
 .second-box button:hover {
   opacity: 0.9;
