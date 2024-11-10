@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(179, 117, 237);
+  background: linear-gradient(to right, #ae00ff, #2b2bf9);
 }
 
 .main-box {
