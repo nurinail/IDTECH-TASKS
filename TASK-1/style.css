@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sour Gummy", serif;
+  font-family: "Roboto", serif;
 }
 body {
   background: linear-gradient(to right, #bb8aef, #6656ed);
@@ -43,7 +43,7 @@ p {
 
 .first-box p {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 500;
   padding: 12px 12px;
 }
 

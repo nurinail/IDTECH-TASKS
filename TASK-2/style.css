@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f8fe;
+}
+ul li {
+  list-style-type: none;
+}
+
+.login_table {
+  width: 900px;
+  height: 350px;
+  text-align: center;
+  position: relative;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, #4c6cdc, #1c3fbb);
+  border: 20px solid #dde5f9;
+  border-radius: 40px;
+}
+
+.login_table_main {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_table_main_header {
+  font-size: 36px;
+  text-align: left;
+}
+.login_table_main_text {
+  width: 350px;
+  display: inline-block;
+  margin-block: 20px;
+  font-size: 16px;
+  padding-inline: 16px;
+}
+
+.login_table_main_form {
+  position: relative;
+}
+
+.login_table_main_form input {
+  background-color: #7d93dd;
+  color: #ffffff;
+  width: 420px;
+  padding: 20px;
+  border: none;
+  border-radius: 24px;
+}
+.login_table_main_form input::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+}
+.login_table_main_form_button {
+  cursor: pointer;
+  padding: 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+}
+.login_table_main_form_button:hover {
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+}
+.login_table_images_cards {
+  width: 100%;
+  position: absolute;
+  bottom: -28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login_table_images_cards_item {
+  display: inline-block;
+  margin-inline: 14px;
+}
+
+.login_table_images_cards_item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
