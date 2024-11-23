@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid black; */
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+input:focus {
+  outline: none;
+}
+.container_users {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.container_users_top_title {
+  font-size: 28px;
+}
+.container_users_top_navbar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_users_top_navbar_form {
+  height: 42px;
+}
+.container_users_top_navbar_form_search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bfc8e5;
+  border-radius: 4px;
+}
+.container_users_top_navbar_form_search_icon {
+  margin-left: 8px;
+}
+.container_users_top_navbar_form_search_input {
+  border: none;
+  padding: 12px 8px;
+  width: 320px;
+}
+.container_users_top_navbar_form_search_input:focus {
+  transition: 1s;
+}
+
+.container_users_top_navbar_menu {
+  display: flex;
+  align-items: center;
+}
+
+.container_users_top_navbar_menu {
+  height: 42px;
+  text-align: center;
+}
+
+.container_users_top_navbar_menu_item_link {
+  color: black;
+  width: 96px;
+  display: inline-block;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+.container_users_top_navbar_menu_item_link:hover {
+  background-color: #849fff;
+  transition: 0.5s;
+  transform: scale(1.1);
+  color: white;
+}
+
+.container_users_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.container_users_table_card {
+  width: 32.8%;
+  height: 198px;
+  display: flex;
+  margin-top: 12px;
+  padding: 20px;
+  align-items: flex-start;
+  background-color: #fbfcff;
+  border-radius: 10px;
+}
+.container_users_table_card:hover {
+  border: 1px solid #bfc8e5;
+  transition: 0.7s;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.container_users_table_card_img_photo {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 97px;
+  height: 97px;
+}
+.container_users_table_card_item {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 12px;
+  padding-top: 20px;
+}
+.container_users_table_card_item_header_city {
+  font-weight: 500;
+  margin-top: 2px;
+}
+.container_users_table_card_item_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.container_users_table_card_item_bottom_hobby {
+  border: 1px solid #bfc8e6;
+  padding: 0 8px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #516fd4;
+}
