@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid black; */
+  /* outline: 1px solid red; */
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  max-width: 144rem;
+}
+
+/* ------header started------- */
+.header {
+  height: 15rem;
+  
+}
+.header_container {
+  margin-block: auto;
+ 
+  padding: 1rem 4rem;
+}
+
+.header_container_logo_img {
+  max-height: 15rem;
+  object-fit: cover;
+}
+.header_container_navigation {
+  /* border: 1px solid red; */
+  /* margin-block: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_container_navigation_menu {
+  width: 58rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_container_navigation_menu_item_link {
+  color: #252b42;
+  transition: 0.7s;
+}
+.header_container_navigation_menu_item_link:hover {
+  color: #fa4a0c;
+}
+.header_container_navigation_icon {
+  display: none;
+}
+
+@media screen and (max-width: 762px) {
+  html {
+    font-size: 5px;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+
+  .header_container_navigation_menu {
+    display: none;
+  }
+  .header_container_navigation_icon {
+    display: block;
+    color: #737373;
+    font-size: 4rem;
+  }
+}
+
+/* ------header ended------- */
+
+/* ------main started------- */
+
+/* ------main banner started------- */
+.main_banner_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main_banner_container_top {
+  background-image: url("images/banner_bg_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80rem;
+  gap: 1rem;
+  text-align: center;
+}
+.main_banner_container_top_title {
+  /* margin-top: 5rem; */
+  color: #f6f6f6;
+  font-size: 2.4rem;
+}
+.main_banner_container_top_question {
+  max-width: 100rem;
+  /* padding-inline: 2rem; */
+  font-size: 5.8rem;
+  color: #ffffff;
+  padding-block: 1rem;
+}
+.main_banner_container_top_text {
+  color: #f6f6f6;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.main_banner_container_top_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  /* margin-bottom: 6rem; */
+}
+.main_banner_container_top_buttons_item {
+  padding-block: 1.6rem;
+  width: 23rem;
+  border-radius: 3rem;
+  font-size: 2.4rem;
+}
+.main_banner_container_top_buttons_playStore {
+  background-color: #fa4a0c;
+  border: none;
+  color: #ffffff;
+}
+.main_banner_container_top_buttons_appStore {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.main_banner_container_top_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.main_banner_container_images {
+  /* border-bottom: 1px solid red; */
+  height: 50rem;
+}
+
+.main_banner_container_images_main {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -20%);
+}
+.main_banner_container_images_position {
+  width: 60rem;
+  position: relative;
+}
+.main_banner_container_images_item_left,
+.main_banner_container_images_item_right {
+  width: 30rem;
+  height: 58rem;
+  object-fit: cover;
+}
+.main_banner_container_images_item_right {
+  position: absolute;
+  right: 0;
+  top: 16%;
+}
+
+@media screen and (max-width: 762px) {
+  .main_banner_container {
+    flex-wrap: wrap;
+  }
+  .main_banner_container_top {
+    background-color: #fafafa;
+    background-image: none;
+  }
+  .main_banner_container_top_title {
+    color: #737373;
+  }
+  .main_banner_container_top_question {
+    color: #252b42;
+  }
+  .main_banner_container_top_text {
+    color: #737373;
+  }
+  .main_banner_container_top_buttons {
+    flex-direction: column;
+  }
+  .main_banner_container_top_buttons_playStore {
+    background-color: #fa4a0c;
+    color: #ffffff;
+  }
+  .main_banner_container_top_buttons_appStore {
+    border: 1px solid #fa4a0c;
+    color: #fa4a0c;
+  }
+  
+}
+/* ------main banner ended------- */
+
+/* ------main appWorks started------- */
+.main_appWorks {
+  width: 90%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  background-color: #ffffff;
+}
+.main_appWorks_container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_appWorks_container_title {
+  margin-top: 4rem;
+  text-align: center;
+  width: 70rem;
+  font-size: 4.4rem;
+  padding-block: 4rem;
+  border-top: 3px solid #e4e4e4;
+}
+.main_appWorks_container_cards {
+  /* border: 1px solid red; */
+  /* width: 0%; */
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.main_appWorks_container_cards:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+.main_appWorks_container_cards_img_item {
+  width: 30rem;
+  height: 52rem;
+  object-fit: cover;
+}
+.main_appWorks_container_cards_items {
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 54rem;
+}
+.main_appWorks_container_cards_items_title {
+  color: #fa4a0c;
+  font-size: 2.4rem;
+}
+.main_appWorks_container_cards_items_center {
+  color: #252b42;
+  font-size: 4rem;
+}
+.main_appWorks_container_cards_items_paragraph {
+  font-size: 2.4rem;
+  color: #737373;
+  width: 40rem;
+}
+
+@media screen and (max-width: 762px) {
+  .main_appWorks_container_title {
+    border-top: none;
+    border-bottom: 3px solid #e4e4e4;
+  }
+
+  .main_appWorks_container_cards {
+    flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .main_appWorks_container_cards:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+  .main_appWorks_container_cards_items {
+    align-items: center;
+    margin-top: 4rem;
+  }
+}
+
+/* ------main appWorks end------- */
+
+/* ------main store start------- */
+
+.main_store {
+  height: 50rem;
+  background-image: url("images/store_bg_image.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+}
+.main_store_title {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 1);
+}
+.main_store_paragraph {
+  width: 90%;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.main_store_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.main_store_buttons_item {
+  padding: 1.2rem 3.1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.main_store_buttons_item_playStore {
+  border: none;
+  background-color: #fa4a0c;
+  color: #ffffff;
+}
+.main_store_buttons_item_appStore {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 762px) {
+  .main_store {
+    background-image: none;
+    background-color: #252b42;
+  }
+  .main_store_buttons_item_playStore {
+    font-size: 0;
+  }
+  .main_store_buttons_item_playStore::after {
+    content: "Buy now";
+    font-size: 1.6rem;
+  }
+  .main_store_buttons_item_appStore {
+    font-size: 0;
+  }
+  .main_store_buttons_item_appStore::after {
+    content: "Try for free";
+    font-size: 1.6rem;
+  }
+}
+
+/* ------main store end------- */
+
+/* ------footer started------- */
+
+.footer {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+}
+.footer_container {
+  padding: 2rem 4rem;
+  width: 90%;
+  margin-inline: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_container_logo {
+  width: 20rem;
+  height: 8rem;
+  object-fit: cover;
+}
+.footer_container_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  gap: 2.6rem;
+}
+.footer_container_text {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 762px) {
+    .footer_container_logo{
+        display: none;
+    }
+    .footer_container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* ------footer ended------- */
